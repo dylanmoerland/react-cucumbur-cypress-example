@@ -1,0 +1,25 @@
+{
+  "extends": "react-app",
+  "parser": "babel-eslint",
+  "globals": {
+    "Cypress": true,
+    "cy": true,
+    "it": true,
+    "describe": true,
+    "expect": true,
+    "after": true,
+    "before": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "context": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "max-len": 0,
+    "quotes": ["error", "single"],
+  }
+}

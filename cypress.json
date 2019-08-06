@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "numTestsKeptInMemory": 50,
+  "projectId": "5xdjon",
+  "ignoreTestFiles": "*.js",
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-output-[hash].xml"
+  }
+}

@@ -1,12 +1,24 @@
 import React from 'react';
 import PT from 'prop-types';
 
-import { Container, Button, Label } from './styled';
+import { useCalculator } from 'modules/Calculator';
+
+import { Button, Label } from './styled';
 
 const CalculatorButton = ({ value, variant }) => {
+  const { appendToSum } = useCalculator();
+
   return (
 
-    <button>{value}</button>
+    <Button
+      onClick={() => appendToSum(value)}
+      variant={variant}
+      data-cy={`calculator-button-${value}`}
+    >
+      <Label>
+        {value.toString()}
+      </Label>
+    </Button>
   );
 };
 

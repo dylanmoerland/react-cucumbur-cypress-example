@@ -2,6 +2,8 @@ export default {
   EQUALS: '=',
   MINUS: '-',
   PLUS: '+',
-  DIVIDE: '%',
+  DIVIDE: '/',
   TIMES: '*',
+  DECIMAL: '.',
+  CLEAR: 'c',
 };

@@ -10,7 +10,9 @@ const CalculatorDisplay = () => {
   return (
     <Container>
       <Wrapper>
-        <Label>{displayValue}</Label>
+        <Label data-cy="calculator-display-label">
+          {displayValue}
+        </Label>
       </Wrapper>
     </Container>
   );
