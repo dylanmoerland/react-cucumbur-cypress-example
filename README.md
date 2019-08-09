@@ -6,11 +6,6 @@ An example showcasing how to use cucumber in combination with cypress to test a 
 [cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor) allows us to use cucumber in combination with cypress.
 [step-definition-generator](https://github.com/dylanmoerland/step-definition-generator) is an Atom plugin that generates the step definitions for your feature files.
 
-## Result
-
-![Cypress result](https://github.com/dylanmoerland/react-cucumbur-cypress-example/tree/master/example/adding.gif)
-![Cypress result](https://github.com/dylanmoerland/react-cucumbur-cypress-example/tree/master/example/subtracting.gif)
-
 ## Running it locally
 1.  Clone the project
 ```
@@ -31,3 +26,9 @@ $ open http://localhost:3000
 $ npm run cypress:open
 ```
 5. Click `Run all tests`
+
+## Result
+`Scenario: Adding`
+![Cypress result](https://github.com/dylanmoerland/react-cucumbur-cypress-example/blob/master/example/adding.gif?raw=true)
+`Scenario: Subtracting`
+![Cypress result](https://github.com/dylanmoerland/react-cucumbur-cypress-example/blob/master/example/subtracting.gif?raw=true)
