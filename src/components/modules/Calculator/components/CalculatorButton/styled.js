@@ -10,10 +10,6 @@ export const Button = styled.button`
     cursor: pointer;
   }
 
-  &:active {
-    outline: 1px blue;
-  }
-
   ${({ variant }) => variant === 'operator' && css`
     background-color: ${({ theme }) => theme.colors.bismark};
   `}
